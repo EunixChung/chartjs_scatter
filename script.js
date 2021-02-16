@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var TITLE = 'Income and Test Scores in Connecticut School Districts, 2009-13';
+  var TITLE = 'Relationship of Income and Test Scores in Connecticut School Districts, 2009-13';
 
   var POINT_X = 'income'; // column name for x values in data.csv
   var POINT_X_PREFIX = '$'; // prefix for x values, eg '$'
@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   var POINT_Y = 'grades'; // column name for y values in data.csv
   var POINT_Y_PREFIX = ''; // prefix for x values, eg 'USD '
-  var POINT_Y_POSTFIX = ''; // postfix for x values, eg ' kg'
+  var POINT_Y_POSTFIX = 'points'; // postfix for x values, eg ' kg'
 
   var POINT_NAME = 'district'; // point names that appear in tooltip
   var POINT_COLOR = 'rgba(0,0,255,0.7)'; // eg `black` or `rgba(10,100,44,0.8)`
