@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-  var TITLE = 'Relationship of Income and Test Scores in Connecticut School Districts, 2009-13';
+  var TITLE = 'Relationship of Income and Test Scores, 2009-13';
 
   var POINT_X = 'income'; // column name for x values in data.csv
-  var POINT_X_PREFIX = '$'; // prefix for x values, eg '$'
+  var POINT_X_PREFIX = '¥'; // prefix for x values, eg '$'
   var POINT_X_POSTFIX = ''; // postfix for x values, eg '%'
 
   var POINT_Y = 'grades'; // column name for y values in data.csv
@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   var POINT_NAME = 'district'; // point names that appear in tooltip
   var POINT_COLOR = 'rgba(10,100,25,0.8)'; // eg `black` or `rgba(10,100,44,0.8)`
-  var POINT_RADIUS = 4; // radius of each data point
+  var POINT_RADIUS = 2; // radius of each data point
 
   var X_AXIS = 'Median Household Income, USD'; // x-axis label, label in tooltip
   var Y_AXIS = 'Grade, Relative to Average'; // y-axis label, label in tooltip
